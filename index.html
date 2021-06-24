@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/jquery.formstyler.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	
+</head>
+<body>
+	<header class="header">
+		<div class="header__top">
+			<div class="container">
+				<div class="header__contacts">
+					<a href="tel:390963092145" class="header__phone" >+7 (770) 196 47 16</a>
+					<a href="#" class="header__email">logistics@gmail.com</a>
+					<a id="scroll" href="#one" class="header__btn animate">Расчет стоимости</a> 
+				</div>
+			</div>
+		</div>
+		<div class="header__content">
+			<div class="container">
+				<div class="header__content-inner">
+					<div class="header__logo">
+						<a href="#">
+							<img src="img/logo.png" alt="">
+						</a>
+					</div>
+					<nav class="menu">
+						<div class="header__btn-menu">
+							<span class="icon-bars"></span>
+						</div>
+						<ul>
+							<li><a href="#index.html">Главная</a></li>
+							<li><a id="scroll" href="#company">О компании</a></li>
+							<li><a id="scroll" href="#yslygi">Услуги</a></li>
+							<li><a id="scroll" href="#contacts">Контакты</a></li>
+							<li><a id="scroll" href="documents.html">Документы</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="slider">
+		<div class="container">
+			<div class="slider__inner">
+				<div class="slider__item">
+					<div class="slider__item-content">
+						<div class="slider__title">
+							ЛУЧШАЯ ТРАНСПОРТНАЯ КОМПАНИЯ 
+						</div>
+						<div class="slider__text">
+							Профессионалы, которые уже более 15 лет оказывают транспортные услуги и являются надежными партнерами для ведения внешнеэкономической деятельности.
+						</div>
+						<a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+							Оставить заявку
+						</a>
+					</div>
+				</div>
+				<div class="slider__item">
+					<div class="slider__item-content">
+						<div class="slider__title">
+							КОНСАЛТИНГ ГРУПП
+						</div>
+						<div class="slider__text">
+							Оптимизируйте расходы на сопровождение контрактов Поможем уменьшить количество финансовых рисков -
+							в короткие сроки разработать условия соглашения и  воплотить его в жизнь.
+						</div>
+						<a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+							Оставить заявку
+						</a>
+					</div>
+				</div>
+				<div class="slider__item">
+					<div class="slider__item-content">
+						<div class="slider__title">
+							ТАМОЖЕННОЕ ОФОРМЛЕНИЕ
+						</div>
+						<div class="slider__text">
+							Таможенные специалисты компании всегда готовы оказать информационную поддержку и помочь в решении сложных вопросов по таможенному оформлению
+						</div>
+						<a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+							Оставить заявку
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section class="services">
+		<div class="container">
+			<div class="services__top">
+				<div class="services__title-box">
+					<div class="services__title">
+						<a id="yslygi" name="yslygi">Наши услуги</a>
+					</div>
+					<div class="services__text">
+						Комплексный подход к вашему вопросу, своевременное оформление, быстрая доставка до двери в течении недели. Улучшенный сервис отслеживание грузов.
+					</div>
+				</div>
+				<div href="about.html" class="services__btn">
+					<a href="about.html">Показать все </a>
+				</div>
+			</div>
+			<div class="services__items">
+				<div class="services__item">
+					<img src="img/services-1.png" alt="">
+					<div class="services__item-title">Перевозки</div>
+					<div class="services__item-text">Перевозки грузов по регионам, автомобильным 
+						железнодоожным <br>морским и воздушным способом  в самые короткие сроки, отслеживание груза датчиками c gps
+					</div>
+					<div class="services__item-btn">
+				
+						<a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+							Заказать
+						</a>
+					</div>
+				</div>
+				<div class="services__item">
+					<img src="img/services-2.png" alt="">
+					<div class="services__item-title">Таможенное оформление</div>
+					<div class="services__item-text">Компания  оказывает полный пакет услуг <br/>и открывает для Вас новые возможности <br/>поможем , растаможить груз с минимальными затратами</div>
+					<div class="services__item-btn">
+					
+						<a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+							Заказать
+						</a>
+					</div>
+				</div>
+				<div class="services__item">
+					<img src="img/services-3.png" alt="">
+					<div class="services__item-title">Складские услуги</div>
+					<div class="services__item-text">Стеллажное хранение<br/>
+						Механизированная разгрузка и погрузка<br/>
+						Работа с нестандартными, тяжелыми и крупными грузами
+						Перегрузка со склада или площадки в вагоны, контейнеры,<br/>автотранспорт и обратно.</div>
+						<div class="services__item-btn">
+							
+							<a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+								Заказать
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="about">
+			<div class="container">
+				<div class="about__inner">
+					<div class="about__title"><a id="company" name="company">О компании</a></div>
+					<div class="about__text">Мы покупаем Товар, продаваемый на территории России, без НДС! Зачастую Поставщик из России не желает убирать из цены НДС при продаже своего товара на Казахстан, а просто продаёт по якобы нулевой ставке НДС. Это вполне объяснимо, так как помимо отчетностей в фискальные органы и риски. (в случае недобропорядочности Покупателя из Казахстана), Поставщик минимум на полгода замораживает свои деньги при возврате НДС из бюджета Российской Федерации.</div>
+					<a href="onas.html" class="about__btn default-btn">
+						Узнать больше
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="form">
+			<div class="container">
+				<div class="form__inner">
+					<div class="form__content">
+						<div class="form__title-box">
+							<div class="form__title">
+								Связаться с нами
+							</div>
+							<div class="form__text">
+								Комплексный подход к вашему вопросу, своевременное оформление, быстрая доставка до двери в течении недели. Улучшенный сервис отслеживание грузов.
+							</div>
+						</div>
+						<div class="form__box">
+							<form action="">
+								<div class="form__box-inner">
+									<div class="form__box-left">
+										<label for="">
+											E-mail
+											<input type="text" name="name" required id="name" placeholder="Имя">
+										</label>
+										<label for="">
+											Контактный телефон
+											<input type="text" name="auto"  required id="auto" placeholder="Телефон">
+										</label>
+										<label for="">
+											ФИО
+											<input type="text"  name="fio" required id="fio" placeholder="Фамилия">
+										</label>
+
+									</div>
+									<div class="form__box-right">
+										<label for="">
+											Сообщение
+											<textarea placeholder="Введите текст" name="message" required id="" > </textarea> 
+										</label>
+										<button type="submit" class="default-btn">Получить консультацию</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="advantages">
+			<div class="container">
+				<div class="advantages__inner">
+					<div class="advantages__item">
+						<img src="img/protect.png" alt="">
+						<div class="advantages__title">
+							Надежность
+						</div>
+						<div class="advantages__text">
+							Договор и оплата Казахстанской компании, которая на рынке 13 лет и имеет солидный уставной капитал.
+						</div>
+					</div>
+					<div class="advantages__item">
+						<img src="img/wallet.png" alt="">
+						<div class="advantages__title">
+							Экономия
+						</div>
+						<div class="advantages__text">
+							Экономьте от 7%, покупая через нашу компанию, за счет отсутствия двойного налогообложения.
+						</div>
+					</div>
+					<div class="advantages__item">
+						<img src="img/speed.png" alt="">
+						<div class="advantages__title">
+							Скорость
+						</div>
+						<div class="advantages__text">
+							Мы доставим, заберем, и сделаем все быстрее наших конкурентов за счет хорошо обученного персонала и технологий
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="news">
+			<div class="container">
+				<div class="news__top">
+					<div class="news__title-box">
+						<div class="news__title">
+							Новости Компании
+						</div>
+						<div class="news__text">
+							Комплексный подход к вашему вопросу, своевременная правовую помощь, представление интересов во всех судебных
+							инстанциях.
+						</div>
+					</div>
+					<div class="news__btn">
+						<a href="#">
+							Перейти в телеграмм
+						</a>
+					</div>
+				</div>
+				<div class="news__inner">
+					<div class="news__slider">
+						<div class="news__slider-inner">
+							<div class="news__slider-item">
+								<div class="news__slider-title">
+									Что ожидает рынок логистики в будущем
+								</div>
+								<div class="news__slider-text">
+									Транспортная отрасль и рынок логистики, в частности, играют ключевую роль в экономике любого государства. И Казахстан — не исключение. Именно транспортный сектор по итогам прошлого года стал одним из драйверов экономического роста страны. Сегодня на его долю приходится более 8% ВВП республики. Однако, несмотря на развитие отечественного рынка логистических услуг, до сих пор остаются и проблемы. Основные из них: устаревший автопарк, нехватка квалифицированных кадров, а также неразвитость логистической сети и складского хозяйства в регионах. Впрочем, есть компания, которая не только эффективно развивает бизнес даже в сложившихся условиях, но и пытается внести свой вклад в совершенствование этой сферы.
+								</div>
+								<div class="news__slider-author">
+									Евгений Покраснюшин, генеральный директор компании DST
+								</div>
+							</div>
+							<div class="news__slider-item">
+								<div class="news__slider-title">
+									Мировые грузоперевозки: железные дороги оказались самыми устойчивыми к коронакризису
+								</div>
+								<div class="news__slider-text">
+									Они предоставляют услуги по перевозке грузов автомобильным, железнодорожным, водным и воздушным транспортом. Из всех видов международного грузового сообщения самыми устойчивыми к коронакризису оказались железные дороги. Стоимость транспортировки товаров по воздуху на пике пандемии выросла в шесть-восемь раз, доставка морским путем подорожала в некоторых случаях до десяти. В этой ситуации с начала восстановления мировой экономики железнодорожные перевозки между Китаем и Европой стали ключевым каналом экономического оживления на евразийском пространстве.
+								</div>
+								<div class="news__slider-author">
+									Андрей Ворошилов, блоггер 
+								</div>
+							</div>
+							<div class="news__slider-item">
+								<div class="news__slider-title">
+									2,5 млн тонн грузов планируют перевезти через порт Курык
+								</div>
+								<div class="news__slider-text">
+									2,5 млн тонн грузов планируют перевезти в этом году через порт Курык, сообщает корреспондент «Хабар 24». На сегодня налажены регулярные сообщения с Азербайджаном. В перспективе ожидается запуск и других паромных линий в направлении Туркменистана и Ирана. Грузы из Китая проезжают Казахстан, Азербайджан, Грузию, Турцию и Украину и далее выходят на Европу. В транскаспийском международном транспортном маршруте порт Курык находится примерно посередине. Сегодня здесь трудятся более 300 сотрудников, представителей разных служб.
+								</div>
+								<div class="news__slider-author">
+									Азат Балыкбаев, специалист экспедиторского отдела
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="news__blog">
+						<div class="news__images">
+							<img src="img/news-1.png" alt="">
+							
+						</div>
+						<div class="news__blog-title">
+							Новость компании
+						</div>
+						<div class="news__blog-text">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit itaque esse animi ab vero tenetur repudiandae magni quibusdam asperiores porro tempore similique, nostrum, numquam earum at harum fugit enim. Quasi.
+						</div>
+					</a>
+					<a href="#" class="news__blog">
+						<div class="news__images">
+							<img src="img/news-1.png" alt="">
+							
+						</div>
+						<div class="news__blog-title">
+							Новость компании
+						</div>
+						<div class="news__blog-text">
+							Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Blanditiis eos totam distinctio aut libero maxime ducimus, laboriosam sed excepturi placeat, consectetur accusamus doloribus possimus obcaecati odio fugit aspernatur iure incidunt.
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="bill">
+			<div class="container">
+				<div class="news__title-box">
+					<div class="news__title">
+						<a id="one" name="one">Расчет стоимости доставки</a>
+					</div>
+					<div class="news__text">
+						
+					</div>
+					<form class="bill__text">
+						<div class="row mb-3">
+							<div class="form-group col-md-6 col-sm-6">
+								<p class="badge badge-warning">Вес (кг)</p>
+								<input type="text" name="date" class="form-control" id="weight" required="" placeholder="1500" required=""/>
+							</div>
+							<div class="form-group col-md-6 col-sm-6">
+								<p class="badge badge-warning">Объем (куб²)</p>
+								<input type="text" name="adress" id="vol" class="form-control" placeholder="2" required=""/>
+							</div>
+						</div>
+						<div class="custom-control custom-checkbox row d-flex justify-content-center mb-3">
+							<div class="col-md-3" style="visibility: visible;">
+
+								<input type="checkbox" id="load" name="mess" class="custom-control-input"/>
+								<label class="custom-control-label" for="load">Нужна погрузка</label>
+								
+							</div>
+
+							<div class="col-md-3" style="visibility: visible;">
+								<input type="checkbox" id="del" name="mess" class="custom-control-input"/>
+								<label class="custom-control-label" for="del">Доставка до места</label>
+							</div>
+
+							<div class="col-md-3" style="visibility: visible;">
+								<input type="checkbox" id="frag" name="mess" class="custom-control-input"/>
+								<label class="custom-control-label" for="frag">Хрупкий груз</label>
+							</div>
+						</div>
+						<div class="row mb-3">
+
+							<div class="form-group col-md-12">
+								<label for="range">Расстояние <span class="rasstoyanie">0</span> <span>км</span></label>
+								<input type="range" class="custom-range" min="50" max="5000" step="50" id="range" value="500"/>
+							</div>
+
+						</div>
+						<div class="row col-12 mb-3"><span id="out">0.0</span> <span class="rub">Тенге</span></div>
+						<div class="row">
+							<div class="col-md-2 col-12">
+								<input type="button" name="adress" id="btn" class="btn-block btn btn-primary" value="Считать"/>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer__content">
+				<div class="container">
+					<div class="footer__inner">
+						<div class="footer__info">
+							<div class="footer__title">
+								<a id="contacts" name="contacts">LOGISTICS</a>
+							</div>
+							<div class="footer__text">
+								г. Костанай — с 10:00 до 22:00 с понедельника по пятницу, в выходные офис не работает.
+							</div>
+
+							<a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">
+								Обратная связь
+							</a>
+							<ul class="footer__list">
+								<li><a class="footer__phone" href="tel:380963092145">+22 (000) 777 22 22</a></li>
+								<li><a href="#">logistics@gmail.com</a></li>
+								<li><a class="footer__adress" href="#">Костанай, ул.Пушкина, 13</a></li>
+							</ul>
+						</div>
+						<div class="footer__map">
+							<iframe width="630px" height="250px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.124391996489!2d30.364922015731644!3d50.457408279476354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc919501b4ef%3A0x71a476f68f4c8246!2z0YPQuy4g0KTQtdC-0LTQvtGA0Ysg0J_Rg9GI0LjQvdC-0LksIDEzLCDQmtC40LXQsiwgMDIwMDA!5e0!3m2!1sru!2sua!4v1555013165886!5m2!1sru!2sua" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copy">
+				<div class="container">
+					<div class="copy__text">
+						© 2021 Student creating. Все права защищены.
+					</div>
+				</div>
+			</div>
+		</footer> 
+
+
+		<div id="modal" >
+			<form class="form-horizontal" id="recall">
+				<input type="text" placeholder="Ваше имя" class="form-control" id="name" name="name" required id="name">
+				<input type="text" placeholder="Ваш телефон" class="form-control" id="phone" name="phone"required id="phone"> 
+				<input type="submit"   value="Отправить"  class="btn btn-default"  id="submit">
+				
+				<div></div>
+			</form>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="js/jquery.fancybox.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/jquery.formstyler.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/bill.js"></script>
+		
+		<script>
+$(function(){
+	$('#recall').submit(function(e){
+		e.preventDefault();
+		var data = $(this).serialize();
+		$.ajax({
+			url: 'js/mail.php',
+			type: 'POST',
+			data: data,
+			beforeSend: function(){
+				$('#submit').next().text('Отправляю...');
+			},
+			success: function(res){
+				$('#recall').find('input').val('');
+				$('#submit').next().html(res);
+			},
+			error: function(){
+				alert('Ошибка!');
+			}
+		});
+	});
+});
+	</script>
+
+		
+
+
+
+
+
+
+	</body>
+	</html>
